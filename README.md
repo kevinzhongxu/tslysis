@@ -77,13 +77,13 @@ This is an example to estimate taxon-specific lysis
 
 ```r
 # If you want to estimate the taxon-specific lysis for prokaryotes, then run
+
 lysis(otu_table="Path/To/Your/OTU_TABLE_FILE_16S.txt")
 
 
 # If you want to test the funtion/script, then you can run lysis() function using one otu table example from the package:
-otu_table <- read.table(as.character(system.file("extdata", "quadra_16S.txt", package = "tslysis")), h=T, sep="\t", quote=NULL, comment='', fill=T, stringsAsFactors = F)
 
-lysis(otu_table=otu_table)
+lysis(otu_table = as.character(system.file("extdata", "quadra_16S.txt", package = "tslysis")))
 
 ```
 
@@ -92,11 +92,15 @@ The input file is a tabular-separated otu table (.txt) contains one column named
 
 ```r
 # An example of out_table input for lysis()
+
 otu_table <- read.table(as.character(system.file("extdata", "example_out_table.txt", package = "tslysis")), h=T, sep="\t", quote=NULL, comment='', fill=T, stringsAsFactors = F)
 
-print(otu_table)
+head(otu_table)
+
 
 ```
+
+&nbsp;
 
 lysis.R function will firstly calculate the relative abundance of each fraction of the samples. Then the lysis will be calculated by the ratio of the relative abundance of extracellular.rRNA to cellular.rRNA. Thus, it's important to be noted that the taxa within the otu_table should be pretreated to include only the microbial group the you intend to study. For example, if you aim for calculate the taxon-specific lysis for prokaryotes, then the "Eukaryota", "Chloroplast" and "Mitochondria" should be removed from the otu table. Another example, if you aim for calculate the taxon-specific lysis for microeukaryotes then the "Metazoa", "Bacteria" and "Archaea" should be removed from the otu table
 
@@ -109,15 +113,13 @@ This is an example to estimate taxon-specific lysis rate
 
 ```r
 # If you want to estimate the taxon-specific lysis rate for prokaryotes, then run
+
 lysis_rate(otu_table="Path/To/Your/OTU_TABLE_FILE_16S.txt", metadata="Path/To/Your/METADATA.txt")
 
 
 # If you want to test the funtion/script, then you can run lysis_rate() function using the otu_table and metadata example from the package:
-otu_table <- read.table(as.character(system.file("extdata", "quadra_16S.txt", package = "tslysis")), h=T, sep="\t", quote=NULL, comment='', fill=T, stringsAsFactors = F)
 
-metadata <- read.table(as.character(system.file("extdata", "metadata.txt", package = "tslysis")), h=T, sep="\t", quote=NULL, comment='', fill=T, stringsAsFactors = F)
-
-lysis_rate(otu_table=otu_table, metadata=metadata)
+lysis_rate(otu_table = as.character(system.file("extdata", "quadra_16S.txt", package = "tslysis")), metadata = as.character(system.file("extdata", "metadata.txt", package = "tslysis")))
 
 ```
 
@@ -126,19 +128,24 @@ Compared to lysis(), lysis_rate() requires another input file, which is a tabula
 For example, 
 ```r
 # An example of metadata input for lysis_rate()
+
 metadata <- read.table(as.character(system.file("extdata", "metadata.txt", package = "tslysis")), h=T, sep="\t", quote=NULL, comment='', fill=T, stringsAsFactors = F)
 
-print(metadata)
+head(metadata)
 
 ```
 
 "sample.id" = "May_30m", which is the name of water sample.
+
 "Abundance_Total_Cellular.rRNA" = Abundance of total cellular rRNA measured from the water sample.
+
 "Abundance_Total_Extracellular.rRNA" = Abundance of total extracellular rRNA measured from the water sample.
+
 "turnover_rate" = The estimated turnover rate of extracellular rRNA in the water sample
 
 
 &nbsp;
+
 
 
 
