@@ -3,7 +3,7 @@
 # tslysis
 ***
 
-tslysis is a R package that includes scripts and functions to use extracellular rRNA as the proxy to estimate the taxon-specific microbial lysis, lysis rate, mortality rate and etc in water. Previously, Zhong et al. (2021) reported the presence of millions copies of extracellular rRNA in one-millimetre seawater. These extracellular free rRNAs, probably in the form of ribonucleoprotein-bound rRNAs such as ribosomes, are shown to be the result of cell lysis (e.g. viral lysis) and can be used to estimate the taxon-specific lysis in the sea, which provides an important tool in our quest to understand the distribution and abundance of microbes in nature.
+tslysis is a R package that includes scripts and functions to use extracellular rRNA as the proxy to estimate the taxon-specific microbial lysis, lysis rate, mortality rate and etc. Previously, [Zhong et al. (2021)](https://www.biorxiv.org/content/10.1101/2021.07.02.450638v1) reported the presence of millions copies of extracellular rRNA in one-millimetre seawater. These extracellular free rRNAs, probably in the form of ribonucleoprotein-bound rRNAs such as ribosomes, are shown to be the result of cell lysis (e.g. viral lysis) and can be used to estimate the taxon-specific lysis in the sea, which provides an important tool in our quest to understand the distribution and abundance of microbes in nature.
 
 
 &nbsp;
@@ -60,9 +60,9 @@ This package depends on the pre-installation of following R package:
 ***
 &nbsp;
 
-If you use tslysis in a publication, please cite our article in [here](https://www.biorxiv.org/content/10.1101/2020.06.02.130807v1):
+If you use tslysis in a publication, please cite our article in [here](https://www.biorxiv.org/content/10.1101/2021.07.02.450638v1):
 
-Zhong KX, Wirth JF, Chan AM & Suttle CA. Extracellular ribosomal RNA provides a window into taxon-specific microbial lysis in the sea. xxx xx(xx): xxxx (2021). https://www.biorxiv.org/content/10.1101/2020.06.02.130807v1
+Zhong KX, Wirth JF, Chan AM & Suttle CA. Extracellular ribosomal RNA provides a window into taxon-specific microbial lysis. xxx xx(xx): xxxx (2021). https://www.biorxiv.org/content/10.1101/2021.07.02.450638v1
 
 &nbsp;
 &nbsp;
