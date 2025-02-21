@@ -13,6 +13,7 @@ More reading about the research: https://communities.springernature.com/posts/ex
 
 
 ![](https://communities.springernature.com/cdn-cgi/image/metadata=copyright,format=auto,quality=95,fit=scale-down/https://images.zapnito.com/uploads/G6XWJ4zRL2GbDxNDYhzy_fig.4.jpg)
+
 **Fig.1** Distribution of the extracellular rRNA in costal seawater at Strait of Geogia nearby Quadra, BC, Canada. 
 
 
