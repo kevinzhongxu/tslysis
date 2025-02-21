@@ -3,7 +3,8 @@
 # tslysis
 ***
 
-tslysis is a R package that includes scripts and functions to use extracellular rRNA as the proxy to estimate the taxon-specific microbial lysis, lysis rate, mortality rate and etc. Previously, [Zhong et al. (2021)](https://www.biorxiv.org/content/10.1101/2021.07.02.450638v1) and [Zhong et al. (2023)](https://doi.org/10.1038/s41396-022-01327-3) reported the presence of millions copies of extracellular rRNA in one-millimetre seawater. These extracellular free rRNAs, probably in the form of ribonucleoprotein-bound rRNAs such as ribosomes, are shown to be the result of cell lysis (e.g. viral lysis) and can be used to estimate the taxon-specific lysis in the sea, which provides an important tool in our quest to understand the distribution and abundance of microbes in nature.
+The tslysis is a R package that includes scripts and functions to use extracellular rRNA as the proxy to estimate the taxon-specific microbial lysis, lysis rate, mortality rate and etc. Previously, [Zhong et al. (2021)](https://www.biorxiv.org/content/10.1101/2021.07.02.450638v1) and [Zhong et al. (2023)](https://doi.org/10.1038/s41396-022-01327-3) reported the presence of millions copies of extracellular rRNA in one-millimetre seawater. These extracellular free rRNAs, probably in the form of ribonucleoprotein-bound rRNAs such as ribosomes, are shown to be the result of cell lysis (e.g. viral lysis) and can be used to estimate the taxon-specific lysis in the sea, which provides an important tool in our quest to understand the distribution and abundance of microbes in nature.
+
 
 More reading about the research: https://communities.springernature.com/posts/extracellular-rrna-provides-a-window-on-taxon-specific-microbial-cell-lysis.
 
@@ -27,7 +28,6 @@ More reading about the research: https://communities.springernature.com/posts/ex
   
   * The lysis_rate() function allows estimate taxon-specific lysis rate. It is calculated using the extracellular rRNA turnover rate by multiplying the ratio of the concentration of extracellular rRNA to cellular rRNA.
   
-  * ......
   
 &nbsp;
 &nbsp;
