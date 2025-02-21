@@ -3,14 +3,16 @@
 # tslysis
 ***
 
-tslysis is a R package that includes scripts and functions to use extracellular rRNA as the proxy to estimate the taxon-specific microbial lysis, lysis rate, mortality rate and etc. Previously, [Zhong et al. (2021)](https://www.biorxiv.org/content/10.1101/2021.07.02.450638v1) reported the presence of millions copies of extracellular rRNA in one-millimetre seawater. These extracellular free rRNAs, probably in the form of ribonucleoprotein-bound rRNAs such as ribosomes, are shown to be the result of cell lysis (e.g. viral lysis) and can be used to estimate the taxon-specific lysis in the sea, which provides an important tool in our quest to understand the distribution and abundance of microbes in nature.
+tslysis is a R package that includes scripts and functions to use extracellular rRNA as the proxy to estimate the taxon-specific microbial lysis, lysis rate, mortality rate and etc. Previously, [Zhong et al. (2021)](https://www.biorxiv.org/content/10.1101/2021.07.02.450638v1) and [Zhong et al. (2023)](https://doi.org/10.1038/s41396-022-01327-3) reported the presence of millions copies of extracellular rRNA in one-millimetre seawater. These extracellular free rRNAs, probably in the form of ribonucleoprotein-bound rRNAs such as ribosomes, are shown to be the result of cell lysis (e.g. viral lysis) and can be used to estimate the taxon-specific lysis in the sea, which provides an important tool in our quest to understand the distribution and abundance of microbes in nature.
+
+More reading about the research: https://communities.springernature.com/posts/extracellular-rrna-provides-a-window-on-taxon-specific-microbial-cell-lysis
 
 
 &nbsp;
 &nbsp;
 
 
-![](https://github.com/kevinzhongxu/CasOligo/tree/master/inst/extdata/oligo_distribution_among_taxa.png)
+![](https://communities.springernature.com/cdn-cgi/image/metadata=copyright,format=auto,quality=95,fit=scale-down/https://images.zapnito.com/uploads/G6XWJ4zRL2GbDxNDYhzy_fig.4.jpg)
 **Fig.1** Distribution of the extracellular rRNA in costal seawater at Strait of Geogia nearby Quadra, BC, Canada. 
 
 
@@ -60,9 +62,11 @@ This package depends on the pre-installation of following R package:
 ***
 &nbsp;
 
-If you use tslysis in a publication, please cite our article in [here](https://www.biorxiv.org/content/10.1101/2021.07.02.450638v1):
+If you use tslysis in a publication, please cite our articles:
 
-Zhong KX, Wirth JF, Chan AM & Suttle CA. Extracellular ribosomal RNA provides a window into taxon-specific microbial lysis. xxx xx(xx): xxxx (2021). https://www.biorxiv.org/content/10.1101/2021.07.02.450638v1
+Zhong KX, Wirth JF, Chan AM & Suttle CA. (2021) Extracellular ribosomal RNA provides a window into taxon-specific microbial lysis. bioRxiv. https://www.biorxiv.org/content/10.1101/2021.07.02.450638v1
+
+Zhong KX, Wirth JF, Chan AM & Suttle CA. (2023) Mortality by ribosomal sequencing (MoRS) provides a window into taxon-specific cell lysis.  ISME Journal, 17: 105-116.  https://doi.org/10.1038/s41396-022-01327-3
 
 &nbsp;
 &nbsp;
